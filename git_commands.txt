@@ -1,0 +1,11 @@
+git init
+
+touch ReadME.txt
+git add README.txt
+
+git commit -m "First Commit"
+git remote add origin https://github.com/vj78/dataset.git
+git push -u origin master
+
+git status
+git pull -- to fetch updats
