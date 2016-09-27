@@ -1,11 +1,16 @@
+-- create new directory & run below command
 git init
-
+--create new file
 touch ReadME.txt
+-- add file to local repo
 git add README.txt
-
+--commit to staging area
 git commit -m "First Commit"
+--link local repo with git hub -- publish
 git remote add origin https://github.com/vj78/dataset.git
+--commit changes to git remote
 git push -u origin master
-
+--get staus
 git status
-git pull -- to fetch updats
+--fetch updates
+git pull 
